@@ -49,11 +49,11 @@ $(document).ready(function () {
   $.each(gschoolDogs["dogs"], function (index, element) {
     $('#dogs').append(
       '<tr>',
-        '<td> ' + element["owner"] + ' </td>',
-        '<td>' + element["name"] + '</td>',
-        '<td>' + element["preferences"][0]["favoriteFood"] + '</td>',
-        '<td>' + element["preferences"][1]["favoriteToy"] + '</td>',
-      '</tr>')
+        '<td> ' + element["owner"],
+        '<td>' + element["name"],
+        '<td>' + element["preferences"][0]["favoriteFood"],
+        '<td>' + element["preferences"][1]["favoriteToy"]
+    )
   });
 
 });
