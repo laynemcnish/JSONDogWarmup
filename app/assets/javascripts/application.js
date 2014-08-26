@@ -48,7 +48,7 @@ $(document).ready(function () {
 
   $.each(gschoolDogs["dogs"], function (index, element) {
     $('#dogs').append(
-      '<tr id="row">',
+      '<tr>',
         '<td> ' + element["owner"] + ' </td>',
         '<td>' + element["name"] + '</td>',
         '<td>' + element["preferences"][0]["favoriteFood"] + '</td>',
